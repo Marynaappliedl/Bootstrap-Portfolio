@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Make sure the website is responsive on smaller screens */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none; /* Stacked links for smaller screens */
+    display: block;
+    text-align: center;
+  }
+
+  .header .subheader {
+    float: none;
+  }
+}
+
+  /* Custom scrollbar styling */
+body::-webkit-scrollbar {
+  width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #fff3e2;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(#891b63, #fff3e2);
+}
+
+body{
+  .navbar{
+    overflow: hidden;
+    background-color: #9f7791;
+    padding: 20px 15px;
+    font-family: "Apple Chancery", cursive;
+
+  }
+  
+}
+/* Create a footer */
+footer {
+  color: rgba(20, 20, 20, 0.888);
+  background-color: #9f7791;;
+}
+
+  

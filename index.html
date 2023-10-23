@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
+  <title>Navigation Bar With Scroll For Every Section</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="https://www.linkedin.com/in/maryna-poberezhna/">LinkedIn</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.dropbox.com/home/Portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/Marynaappliedl/Challenge" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" style="background-color: hsl(0, 0%, 94%);" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0 bg-light text-primary" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <div class="p-4 shadow-4 rounded-3" style=background-color:"antiquewhite">
+
+    <h2>Welcome to my website!</h2>
+    <p>
+      This is my portfolio website with several projects of mine. If you are interested in any additional information, please, feel free to contact me
+    </p>
+
+    <img src="images/5.jpg" alt="Marina Poberezhna profile picture">
+
+    <hr class="my-4" />
+
+    <p>
+      Feel free to browse different website sections
+    </p>
+ <a href="https://www.linkedin.com/in/maryna-poberezhna/" target="_blank" class="btn btn-primary" style="background-color: hsl(0, 0%, 94%); color: #007BFF;">Learn more</a>
+
+  </div>
+  <!-- Hero -->
+
+  <!-- Create several card sections -->
+  <section id="Projects">
+    <h2>Projects</h2>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-4">
+          <div class="card">
+            <img class="card-img-top" src="images/02-portfolio-4.jpg" alt="Dream life after IT">
+            <div class="card-body">
+              <h2 class="card-title">GitHub:</h2>
+              <p class="card-text">You can find some of my previous projects in my GitHub portfolio. All of them led me to the life that you see on this picture and multiple estate all over the world</p>
+              <div class="button">
+                <a href="#Github"><i class="fas fa-arrow-up"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="card">
+            <img class="card-img-top" src="images/02-portfolio-1.jpg" alt="Lightning">
+            <div class="card-body">
+              <h2 class="card-title">My First Application:</h2>
+              <p class="card-text">This is my first coding project. I'm such a hacker that I've hacked into the system and made lights red</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="card">
+            <img class="card-img-top" src="images/02-portfolio-2.jpg" alt="My Second Application">
+            <div class="card-body">
+              <h2 class="card-title">My Second Application:</h2>
+              <p class="card-text">
+                <a href="https://github.com/Marynaappliedl/Horiseon-Semantic-Corrections.git">This is my second coding project. Also looks cool! And your project can be even cooler! Contact me on LinkedIn for that</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Create an About me section with a short description of myself and an expandable picture -->
+  <section id="My skills">
+    <h1>My skills</h1>
+    <p>During a bootcamp, I`ve gained multiple multiple skills, such as HTML, CSS and JavaScript basics. Also, I`ve learnt how to work with GitHub and multiple other applications for a future Front-end development role</p>
+  <img class="rounded-circle" alt="github" src="images\download.png">
+  <img class="rounded-circle" alt="css" src="images\919826.png">
+<img class="rounded-circle" alt="HTML" src="images\download (1).png">
+</section>    
+
+<section id="Contact me">
+  <h1>Contact</h1>
+  <p>You can find my contacts in contact section of this website</p>
+  <img class="rounded-circle" alt="phone" src="images\download (3).png">
+<img class="rounded-circle" alt="LinkedIn" src="images\download (2).png">
+</section>    
+
+
+
+  <!-- Create a footer for the website -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2023. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Add Bootstrap JavaScript and Popper.js scripts -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+</body>
+</html>
